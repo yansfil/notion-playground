@@ -25,10 +25,10 @@ repos:
         types: [python]
         language: system
         entry: pycln .
-#  - repo: local
-#    hooks:
-#      - id: mypy
-#        name: mypy
-#        types: [python]
-#        language: system
-#        entry: mypy .
+  - repo: local
+    hooks:
+      - id: mypy
+        name: mypy
+        types: [python]
+        language: system
+        entry: mypy .
